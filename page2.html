@@ -4,7 +4,7 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>RyanLKL's Portfolio</title>
+            <title>Queries/Requests</title>
             <link rel="stylesheet" href="style1.css">
         </head>
         <body>
@@ -19,13 +19,50 @@
                         </ul>
                     </div>
                 </nav>
-            </section>
-            <fieldset class="fs">
-                <legend id="id">Queries/Requests</legend>
-                <form class="questions">
+                    <form class="questions">
+                        <fieldset class="fs">
+                            <legend class="form">Queries/Requests</legend>
 
-                </form>
-            </fieldset>
+                            <div class="firstname">
+                                <label for="firstname">First Name:</label><br>
+                                <input type="text" name="firstname">
+                            </div>
+
+                            <div class="lastname">
+                                <label for="lastname">Last Name:</label><br>
+                                <input type="text" id="lastname" name="lastname">
+                            </div>
+
+                            <div class="email">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email">
+                            </div>
+
+                            <div class="options">
+                                <label for="options">What service do you require?</label><br>
+                                <select id="options">
+                                    <option value="videoediting">Video Editing</option>
+                                    <option value="web">Web Development</option>
+                                    <option value="query">Query</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </div>
+
+                            <div class="summary">
+                                <p for="summary">Reason for submitting this form:</p>
+                                <textarea id="summary" name="summary" rows="15" cols="100"></textarea>
+                            </div>
+
+                            <div class="submit">
+                                <button id="submit">Submit</button>
+                            </div>
+
+
+
+                        </fieldset>
+                    </form>
+            </section>
+
 
 
         </body>

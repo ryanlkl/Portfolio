@@ -94,3 +94,164 @@ nav{
     background:#fff;
 
 }
+
+.questions{
+    color:#fff;
+    font-weight: bold;
+    width: 60%;
+    height: 90%;
+    margin:auto;
+    text-align:center;
+}
+
+.fs{
+    margin-top: 10px;
+    font-size:19px;
+    border:2px solid #fff;
+    padding:5px;
+    border-radius: 5px;
+}
+
+
+.fs legend{
+    display:block;
+    border:2px solid #fff;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.form{
+    display:grid;
+    justify-content:space-around;
+    font-size:px;
+}
+
+.firstname{
+    margin-top: 10px;
+}
+
+.firstname input{
+    width:200px;
+    height:25px;
+    margin-top:10px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    transition-delay:0.3s;
+    transition:0.5s ease;
+}
+
+.firstname input:hover{
+    background:#fff;
+    color:#000;
+}
+
+.lastname{
+    margin-top: 10px;
+}
+
+.lastname input{
+    width:200px;
+    height:25px;
+    margin-top:10px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    transition-delay:0.3s;
+    transition:0.5s ease;
+}
+
+.lastname input:hover{
+    background:#fff;
+    color:#000;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.email input{
+    width:200px;
+    height:25px;
+    margin-top:10px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    transition-delay:0.3s;
+    transition:0.5s ease;
+}
+
+.email input:hover{
+    background:#fff;
+    color:#000;
+}
+
+.options{
+    margin-top: 10px;
+
+}
+
+.options select{
+    text-align:center;
+    font-weight:bold;
+    width:200px;
+    height:27px;
+    margin-top:10px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    transition-delay:0.3s;
+    transition: 0.5s ease
+}
+
+.options select:hover{
+    background:#fff;
+    color:#000;
+}
+
+.summary{
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+
+.summary textarea{
+    margin-top:10px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    transition-delay:0.3s;
+    transition:0.5s ease;
+}
+
+.summary textarea:hover{
+    background:#fff;
+    color:#000;
+}
+
+.submit{
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+.submit button{
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    height:35px;
+    width:120px;
+    border-radius:10px;
+    background:transparent;
+    border:2px solid #fff;
+    transition-delay:0.3s;
+    transition: 0.5s ease;
+}
+
+.submit button:hover{
+    color:#000;
+    background:#fff;
+}
