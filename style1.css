@@ -7,7 +7,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background-image: url(IMAGES/home-background.jpg);
+    background-color: #000;
     background-position: center;
     background-size:cover;
     position:relative;
@@ -35,7 +35,7 @@ nav{
     color:#fff;
     font-family:andale mono, monospace;
     font-weight:bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration:none;
 }
 
@@ -53,7 +53,7 @@ nav{
     width:100%
 }
 
-.intro{
+.Body{
     justify-content: center;
     color: #fff;
     width:90%;
@@ -63,20 +63,78 @@ nav{
     transform:translate(-50%,-50%);
 }
 
-.intro h1{
-    text-align:start;
-    font-size:85px;
+.Body .title {
+    margin-bottom: 10px;
 }
 
-.intro p{
-    height:40%;
-    font-size: 18.5px;;
+.Body h1{
     text-align:start;
+    font-size:70px;
+    position: relative;
+}
+
+.Body ul li{
+    text-align:start;
+    font-size: 18.5px;
+    margin: 15px;
+}
+
+.Body p{
+    height:40%;
+    font-size: 20px;;
+    text-align:start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Body h2 {
+    text-align:start;
+    font-size:30px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Body h3 {
+    text-align:start;
+    font-size:20px;
+    position: relative;
+    margin: 5px;
+
+}
+
+.Project ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+
+.Project ul li a{
+    color:#fff;
+    font-family:andale mono, monospace;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.Project ul li::after{
+    content:'';
+    width:0%;
+    height:3px;
+    display:flex;
+    margin:auto;
+    background:#fff;
+    transition:0.5s ease;
+}
+
+.Project ul li:hover::after{
+    width:100%
 }
 
 .contact-button a{
     display:inline-block;
-    margin-top:20px;
+    margin-top:40px;
     padding: 10px 14px;
     position:relative;
     font-family:andale mono, monospace;
@@ -93,6 +151,39 @@ nav{
     color:black;
     background:#fff;
 
+}
+
+.Projects{
+    min-height:100vh;
+    width:100%;
+    background-color:black;
+    background-position: center;
+    background-size:cover;
+    position:relative;
+}
+
+.Examples{
+    justify-content: center;
+    color: #fff;
+    width:90%;
+    position:absolute;
+    top:5%;
+    left: 5%;
+}
+.Examples h2{
+    font-size: 30px;
+}
+
+.Examples h3{
+    font-size: 25px;
+    margin: 2.5% 0%;
+}
+
+.Examples ul li{
+    color: white;
+    list-style: none;
+    text-align:start;
+    font-size: 18.5px;
 }
 
 .questions{
