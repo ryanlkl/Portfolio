@@ -19,6 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-links{
     flex: 2;
     text-align: right;
@@ -54,7 +55,6 @@ nav{
 }
 
 .Body{
-    justify-content: center;
     color: #fff;
     width:90%;
     position:absolute;
@@ -63,20 +63,15 @@ nav{
     transform:translate(-50%,-50%);
 }
 
-.Body .title {
-    margin-bottom: 10px;
-}
-
 .Body h1{
     text-align:start;
     font-size:70px;
-    position: relative;
 }
 
 .Body ul li{
     text-align:start;
-    font-size: 18.5px;
-    margin: 15px;
+    font-size: 16px;
+    margin: 10px;
 }
 
 .Body p{
@@ -134,7 +129,6 @@ nav{
 
 .contact-button a{
     display:inline-block;
-    margin-top:40px;
     padding: 10px 14px;
     position:relative;
     font-family:andale mono, monospace;
